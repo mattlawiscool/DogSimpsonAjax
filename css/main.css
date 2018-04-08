@@ -55,12 +55,6 @@ span, p {
     padding: 5px;
     color: lightblue;
     cursor: pointer;
-    transition: padding 2s;
-}
-
-#btn:hover {
-    padding: 15px;
-    transition: padding 2s;
 }
 
 @media only screen and (max-width: 1005px) {
@@ -83,6 +77,11 @@ span, p {
     h1 {
         text-align: center;
         margin: 0 auto;
+    }
+    .container {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 }
 
