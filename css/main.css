@@ -48,6 +48,21 @@ span, p {
     height: 100%;
 }
 
+#btn {
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    color: lightblue;
+    cursor: pointer;
+    transition: padding 2s;
+}
+
+#btn:hover {
+    padding: 15px;
+    transition: padding 2s;
+}
+
 @media only screen and (max-width: 1005px) {
     .pic-container {
         width: 100%;
